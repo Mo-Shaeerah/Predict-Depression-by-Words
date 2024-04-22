@@ -6,6 +6,7 @@ import pyttsx3
 import numpy as np
 from gtts import gTTS
 import streamlit as st
+from datetime import datetime
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Convert text into audio
@@ -330,3 +331,32 @@ st.sidebar.markdown(f"Created by 🏹⁀➴ [{developer_name}]({developer_github
 
 #if __name__ == '__main__':
 #    main()
+
+# Function to get the last update date
+def get_last_update_date():
+    return datetime(2024, 4, 22)
+
+# Get the last update date and today's date
+last_update_date, today_date = get_last_update_date(), datetime.today()
+st.sidebar.header('`App Dates & Times ⏲⏲⏲`')
+
+# Create buttons in the sidebar to display the dates upon clicking
+if st.sidebar.button("See Today's Date 🍃"):
+    st.sidebar.write(f"`Today's Date 👉🏼👉🏼`   {today_date.strftime('%Y-%m-%d')}")
+if st.sidebar.button("See Last App-Update Date 🥏"):
+    st.sidebar.write(f"`Last Update Date 👉🏼👉🏼`   {last_update_date.strftime('%Y-%m-%d')}")
+
+# Project Links
+st.sidebar.header("`Project Links & LinkedIn 🎡🎡🎡`")
+# LinkedIn profile link
+linkedin_link = "https://www.linkedin.com/in/mo-sa-shaeerah/"
+st.sidebar.markdown(f"[LinkedIn Profile ⌨️]({linkedin_link})")
+# GitHub project link
+github_link = "https://github.com/Mo-Shaeerah/Predict-Depression-by-Words-"
+st.sidebar.markdown(f"[GitHub Project-Link 🔗]({github_link})")
+# Kaggle project link
+kaggle_link = "https://www.kaggle.com/code/mohammedsalf/predict-depression-f-sentiment"
+st.sidebar.markdown(f"[Kaggle Project-Link 🖇️]({kaggle_link})")
+# Colab project link
+colab_link = "https://colab.research.google.com/drive/1jeqtXqIO-okzJudya5qWJnNwr5BgCODg?usp=sharing"
+st.sidebar.markdown(f"[Colab Project-Link 🖥️]({colab_link})")
