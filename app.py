@@ -1,24 +1,12 @@
 # Import Important Libraries
- 
+
+import os
 import joblib
 import pyttsx3
 import numpy as np
+from gtts import gTTS
 import streamlit as st
 from sklearn.feature_extraction.text import TfidfVectorizer
-
-# Convert text into audio
-# def text_to_audio(text):
-#     engine = pyttsx3.init(driverName='sapi5')
-#     engine.setProperty('rate', 150)
-#     engine.setProperty('voice', 'english')
-#     engine.save_to_file(text, 'output.mp3')
-#     engine.runAndWait()
-#     with open('output.mp3', 'rb') as f:
-#         audio = f.read()
-#     return audio
-
-from gtts import gTTS
-import os
 
 # Convert text into audio
 def text_to_audio(text):
@@ -26,7 +14,7 @@ def text_to_audio(text):
     tts.save('output.mp3')
     with open('output.mp3', 'rb') as f:
         audio = f.read()
-    #os.remove('output.mp3')  # Remove the temporary audio file
+    #os.remove('output.mp3') 
     return audio
 
 # Define Prediction Function
@@ -53,8 +41,9 @@ def predict(text):
 
     return predictions
 
-# Define content for each page
+# Define content for home page
 def main():
+    # Set A General title for the app
     st.title('`Depression Prediction App 🚥⛈️🧠`')
     st.image('...Images/Project-Image.png', caption='`Project Image 🧠`', use_column_width=True)
 
@@ -148,8 +137,9 @@ def main():
     
     st.title("")
     st.title("")
-    st.markdown(f"Created e` 🧠🧠🧠 By: ↪↪↪ [{developer_name}]({developer_github})")
-    
+    st.markdown(f"Created e` 🧠🧠🧠 By: ↪🏹⁀➴↪ [{developer_name}]({developer_github})")
+
+# A page contain the images of the app    
 def page_images():
     st.title('`Depression Images Of This APP🧲🧲`')
     st.image('...Images/Project-Image.png', caption='`Project Image 🧠`', use_column_width=True)
@@ -189,9 +179,9 @@ def page_images():
     
     st.title("")
     st.title("")
-    st.markdown(f"Created e` 🧠🧠🧠 By: ↪↪↪ [{developer_name}]({developer_github})")
+    st.markdown(f"Created e` 🧠🧠🧠 By: ↪🏹⁀➴↪ [{developer_name}]({developer_github})")
 
-
+# Prediction page
 def page_predictions():
     st.title('`Start Predicting Depre... 🕹️🕒🔊`')
     st.image('...Images/Project-Image.png', caption='`Project Image 🧠`', use_column_width=True)
@@ -247,12 +237,9 @@ def page_predictions():
     
     st.title("")
     st.title("")
-    st.markdown(f"Created e` 🧠🧠🧠 By: ↪↪↪ [{developer_name}]({developer_github})")
+    st.markdown(f"Created e` 🧠🧠🧠 By: ↪🏹⁀➴↪ [{developer_name}]({developer_github})")
 
-# def page_about():
-#     st.title('About Developer')
-#     st.write("Information about the developer goes here.")
-
+# Disclamir page
 def display_disclaimer_page():
     # Display the disclaimer page content
     st.title('`Disclaimer 📌✂️🌡️`')
@@ -301,7 +288,7 @@ def display_disclaimer_page():
     
     st.title("")
     st.title("")
-    st.markdown(f"Created e` 🧠🧠🧠 By: ↪↪↪ [{developer_name}]({developer_github})")
+    st.markdown(f"Created e` 🧠🧠🧠 By: ↪🏹⁀➴↪ [{developer_name}]({developer_github})")
 
 
 # Render sidebar
@@ -311,17 +298,18 @@ selected_page = st.sidebar.radio("**`Go to 🌊🌊🌊`**", ["Depression-Home",
 # Display selected page
 if selected_page == "Depression-Home":
     main()
+
 elif selected_page == "Depression-Images":
     page_images()
+
 elif selected_page == "Depression-Predictions":
     page_predictions()
-# elif selected_page == "DisCover Me":
-#     page_about()
+
 elif selected_page == "Disclaimer":
     display_disclaimer_page()
 
 
-#
+# Set -----
 import time
 st.sidebar.header("`About The Developer 🦅🦅🦅`")
 if st.sidebar.button('The AI Developer 🧙'):
@@ -338,7 +326,7 @@ if st.sidebar.button('The AI Developer 🧙'):
 # Discover the Developer
 developer_name = "Mohammed``` Shaeerah"
 developer_github = "https://github.com/Mo-Shaeerah"
-st.sidebar.markdown(f"Created by 🧠 [{developer_name}]({developer_github})")
+st.sidebar.markdown(f"Created by 🏹⁀➴ [{developer_name}]({developer_github})")
 
 #if __name__ == '__main__':
 #    main()
