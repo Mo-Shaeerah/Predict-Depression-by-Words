@@ -7,14 +7,26 @@ import streamlit as st
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Convert text into audio
+# def text_to_audio(text):
+#     engine = pyttsx3.init(driverName='sapi5')
+#     engine.setProperty('rate', 150)
+#     engine.setProperty('voice', 'english')
+#     engine.save_to_file(text, 'output.mp3')
+#     engine.runAndWait()
+#     with open('output.mp3', 'rb') as f:
+#         audio = f.read()
+#     return audio
+
+from gtts import gTTS
+import os
+
+# Convert text into audio
 def text_to_audio(text):
-    engine = pyttsx3.init(driverName='sapi5')
-    engine.setProperty('rate', 150)
-    engine.setProperty('voice', 'english')
-    engine.save_to_file(text, 'output.mp3')
-    engine.runAndWait()
+    tts = gTTS(text=text, lang='en')
+    tts.save('output.mp3')
     with open('output.mp3', 'rb') as f:
         audio = f.read()
+    #os.remove('output.mp3')  # Remove the temporary audio file
     return audio
 
 # Define Prediction Function
