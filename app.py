@@ -327,7 +327,7 @@ if st.sidebar.button('The AI Developer 🧙'):
 # Discover the Developer
 developer_name = "Mohammed``` Shaeerah"
 developer_github = "https://github.com/Mo-Shaeerah"
-st.sidebar.markdown(f"Created by 🏹⁀➴ [{developer_name}]({developer_github})")
+st.sidebar.markdown(f"Created by🏹⁀➴[{developer_name}]({developer_github})")
 
 #if __name__ == '__main__':
 #    main()
