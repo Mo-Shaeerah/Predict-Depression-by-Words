@@ -8,7 +8,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Convert text into audio
 def text_to_audio(text):
-    engine = pyttsx3.init()
+    engine = pyttsx3.init(driverName='sapi5')
     engine.setProperty('rate', 150)
     engine.setProperty('voice', 'english')
     engine.save_to_file(text, 'output.mp3')
