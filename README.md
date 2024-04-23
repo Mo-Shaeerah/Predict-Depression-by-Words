@@ -1,4 +1,4 @@
-# Predict-Depression-by-Words
+# Predict-Depression-by-Words 🚥 🚥 🚥
 
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_white.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/)
@@ -18,4 +18,7 @@
 ![project image](...Images/10.png)
 
 
-[Tips-Audio](output.mp3)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_white.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/)   [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_white.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/)   [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_white.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/)   [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_white.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/)   [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_white.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/)   [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_white.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/)   [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_white.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/)
+
+
