@@ -27,3 +27,12 @@
 # Play with the app by clicking on one of these buttons 👇🏼👇🏼👇🏼
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_white.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/)[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_red.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_white.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/)[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_red.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_white.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/)[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_red.svg)](https://mo-shaeerah-depression-prediction-based-on-text.streamlit.app/)
 
+
+
+# Reach out to me 📞📞📞
+
+- [LinkedIn-🏇🏾](https://www.linkedin.com/in/mo-sa-shaeerah/)
+
+- [Kaggle-🏍️](https://www.kaggle.com/mohammedsalf)
+
+- [GitHub-🏃🏻‍♂️](https://github.com/Mo-Shaeerah)
